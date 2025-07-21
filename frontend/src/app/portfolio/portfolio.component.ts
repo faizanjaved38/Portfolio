@@ -16,7 +16,7 @@ export class PortfolioComponent {
   constructor(private portfolioService: PortfolioService) { }
 
   ngOnInit() {
-    this.fetchPortfolioData();
+    // this.fetchPortfolioData();
   }
 
   private fetchPortfolioData(): void {
