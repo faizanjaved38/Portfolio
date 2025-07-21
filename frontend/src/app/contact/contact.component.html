@@ -1,0 +1,22 @@
+
+<div class="container">
+    <app-common></app-common>
+    <div class="code-block fs-4">
+        <span class="keyword">&lt;?php</span><br><br>
+        
+        <span class="comment">// Contact Muhammad Faizan Javaid</span><br>
+        <span class="keyword">function </span><span class="function">getContactInfo</span>() {{ '{' }}<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">$name </span>= <span class="string">"Muhammad Faizan Javaid"</span>;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">$email </span>= <span class="string">"faizanjaved38&#64;gmail.com"</span>;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return array(</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">'name' </span>=&gt; <span class="keyword">$name</span>,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">'email' </span>=&gt; <span class="keyword">$email</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">);</span><br>
+        {{ '}' }}<br><br>
+
+        <span class="keyword">$contactInfo </span>= <span class="function">getContactInfo</span>();<br>
+        <span class="keyword">echo </span><span class="string">"You can contact " </span>.<span class="keyword">$contactInfo</span>[<span class="string">'name'</span>] . <span class="string">" via email: "</span>.<span class="keyword">$contactInfo</span>[<span class="string">'email'</span>];<br><br>
+
+        <span class="keyword">?&gt;</span>
+    </div>
+</div>
